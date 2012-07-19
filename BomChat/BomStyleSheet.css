@@ -1,0 +1,28 @@
+﻿body {
+}
+
+.divMessages {
+    
+    
+    height: 600px;
+    overflow: auto;
+}
+    
+
+
+.tdMessage {
+    background-color: #808080;
+    color: #eee;
+}
+.tdUser {
+
+background: #EEF6DC;
+border-left: 10px solid #E0EFC0;
+
+}
+
+.amp {
+font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
+font-style: italic;
+font-weight: normal;
+}

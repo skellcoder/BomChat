@@ -1,0 +1,63 @@
+﻿body {
+}
+.stitched {
+   padding: 5px 10px;
+   margin: 10px;
+   background: #eee;
+   color: rgba(0,0,0,0.15);
+   font-size: 14px;
+   font-weight: bold;
+   line-height: 1.3em;
+   border: 2px dashed #808080;
+   border-top-left-radius: 3px;
+   -moz-border-radius-topleft: 3px;
+   -webkit-border-top-left-radius: 3px;
+   border-bottom-right-radius: 3px;
+   -moz-border-radius-bottomright: 3px;
+   -webkit-border-bottom-right-radius: 3px;
+   border-top-right-radius: 3px;
+   -moz-border-radius-topright: 3px;
+   -webkit-border-top-right-radius: 3px;
+   -moz-box-shadow: 0 0 0 4px #ff0030, 2px 1px 4px 4px rgba(10,10,0,.5);
+   -webkit-box-shadow: 0 0 0 4px #ff0030, 2px 1px 4px 4px rgba(10,10,0,.5);
+   box-shadow: 0 0 0 4px #ff0030, 2px 1px 6px 4px rgba(10,10,0,.5);
+   text-shadow: -1px -1px #808080;
+   font-weight: normal;
+}
+
+.divMessages {
+    
+    
+    height: 600px;
+    overflow: auto;
+}
+    
+
+.layered-paper {
+    background: #eee;
+    box-shadow:
+        0 1px 1px rgba(0,0,0,0.15), /* The top layer shadow */
+        0 10px 0 -5px #eee, /* The second layer */
+        0 10px 1px -4px rgba(0,0,0,0.15), /* The second layer shadow */
+        0 20px 0 -10px #eee, /* The third layer */
+        0 20px 1px -9px rgba(0,0,0,0.15); /* The third layer shadow */
+}
+
+
+.tdMessage {
+    background-color: #808080;
+    color: #eee;
+
+}
+.tdUser {
+
+background-color: #000;
+color: #fff
+
+}
+
+.amp {
+font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
+font-style: italic;
+font-weight: normal;
+}

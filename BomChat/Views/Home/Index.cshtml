@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>BomChat</title>
+  
+</head>
+<body>
+    <p>Chat name: <strong data-bind="text: chatName"></strong></p>
+    <p>User name: <strong data-bind="text: userName"></strong></p>
+    <input data-bind="value: userName" />
+    <div class="divMessages">
+        <table data-bind="foreach: messages">
+            <tr>
+                <td class="tdUser"><span>Username: <label data-bind="text: user"></label></span></td>
+           
+                <td class="tdMessage"><span>Message : <label data-bind="text: message"></label></span></td>
+            </tr>
+        </table>
+    </div>
+
+  <form data-bind="submit: addMessage">
+    New message: <input data-bind="value: newMessageText" placeholder="Say something" />
+    <button type="submit">Say</button>
+</form>
+
+</body>
+
+
+<script type="text/javascript" src="../../js/knockout-2.1.0.js"></script>
+<script type="text/javascript" src="../../js/jquery-1.7.2.js"></script>
+
+
+<script type="text/javascript" src="../../js/jquery-ui-1.8.11.js"></script>
+<script type="text/javascript" src="../../js/jquery.signalR-0.5.2.js"></script>
+<script type="text/javascript" src="../../signalr/hubs"></script>
+<script type="text/javascript" src="../../js/BomChat.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../../BomStyleSheet.css" />
+
+
+</html>
+
+
